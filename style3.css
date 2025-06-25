@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.college-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+hr {
+  margin: 0;
+  border: 1px solid #ddd;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.status-box {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* Main Content */
+.main-content {
+  width: 75%;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #084298;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  margin-top: 40px;
+}

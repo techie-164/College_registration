@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  background-image: url('bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.97;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.college-header {
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0 20px;
+}
+
+.login-box {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.login-box h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #262121;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}

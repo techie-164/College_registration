@@ -1,0 +1,59 @@
+body {
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.college-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.branch-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+.admin-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.admin-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.admin-box h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2a2a2a;
+}
+
+.box-content {
+  text-align: center;
+  color: #555;
+}
